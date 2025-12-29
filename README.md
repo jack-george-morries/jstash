@@ -252,35 +252,31 @@ The architecture prioritizes:
 
 ## Roadmap & Advanced Features
 
-### Phase 1: Enhanced UX (In Progress)
-
+### Phase 1: Core Gallery ✅ (Complete)
+- [x] Offline-first image gallery
+- [x] Multi-layer caching (SQLite, MMKV, File system)
+- [x] Image loading and display
+### Phase 2: Enhanced UX (In Progress)
 - [ ] Splash screen with brand identity
 - [ ] Animated transitions between screens
 - [ ] Pull-to-refresh with haptic feedback
 - [ ] Skeleton loading states
-
-### Phase 2: Developer Experience
-
-- [ ] **Open Source Plugin**: Extract caching layer as `@jstash/fast-image-cache`
-  - Expo config plugin for zero-config setup
-  - Standalone NPM package with full documentation
-  - Benchmark suite comparing to react-native-fast-image
-  - TypeScript-first API with full type safety
-
 ### Phase 3: Production-Ready Features
-
 - [ ] Cache analytics dashboard (size, hit rate, performance metrics)
 - [ ] Image detail view with EXIF metadata
 - [ ] Share functionality with native share sheet
 - [ ] Deep linking support for image URLs
 - [ ] Accessibility: VoiceOver, TalkBack, reduced motion
-
 ### Phase 4: Scale & Performance
-
 - [ ] CDN integration with edge caching
 - [ ] Progressive image loading (blur-up technique)
 - [ ] WebP conversion for 30% smaller file sizes
 - [ ] Background sync worker for offline queue
+- [ ] **Open Source Plugin**: Extract caching layer as `@jstash/fast-image-cache`
+  - Expo config plugin for zero-config setup
+  - Standalone NPM package with full documentation
+  - Benchmark suite comparing to react-native-fast-image
+  - TypeScript-first API with full type safety
 
 ## License
 
